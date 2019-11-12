@@ -1,3 +1,8 @@
-<h1>Base1</h1>
-<br>
+
+{% if page.innerpage == "true" %}
+  <h1> <a href="../../">Base1</a></h1>
+{% else %}
+  <h1> <a href="#">Base1</a></h1>
+{% endif %}
 <hr>
+
