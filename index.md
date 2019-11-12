@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Happy Jekylling!"
+innerpage: "false"
 ---
 
 ## You're ready to go!

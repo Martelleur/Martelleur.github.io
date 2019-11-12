@@ -1,0 +1,32 @@
+<h2>Navigering</h2>
+
+{% if page.innerpage == "true" %}
+<ul>
+    <p>page.innerpage == "true"</p>
+    <li>
+        <a href="../about_me.md">about_me</a>
+    </li>
+    <li>
+        <a href="../programing&stuff.md">programing&amp;stuff</a>
+    </li>
+    <li>
+        <a href="../computers&stuff.md">computers&amp;stuff</a>
+    </li>
+</ul>
+{% else %}
+<ul>
+        <p>page.innerpage == "false"</p>
+    <li>
+        <a href="../pages/about_me.md">about_me</a>
+    </li>
+    <li>
+        <a href="../pages/programing&stuff.md">programing&amp;stuff</a>
+    </li>
+    <li>
+        <a href="../pages/computers&stuff.md">computers&amp;stuff</a>
+    </li>
+</ul>
+{% endif %}
+<br>
+<hr>
+<br>
