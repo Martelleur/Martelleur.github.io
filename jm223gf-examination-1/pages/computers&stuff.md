@@ -7,6 +7,6 @@ innerpage: "true"
 ---
 
 ```
-Hi! My knowledge og computers starts from this day...
+Hi! My knowledge of computers starts from this day...
 
 ```
