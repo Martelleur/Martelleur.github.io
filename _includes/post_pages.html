@@ -3,8 +3,10 @@
   {% for post in site.posts %}
     {% if post.type == "true" %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>By: {{ post.author }}</span> 
+        <a href="{{ post.url }}">{{ post.url }}</a>
+        <span>| Title: {{ post.title }}</span>
+        <span>| Author: {{ post.author }}</span>
+        <span>| Date: {{ post.date }}</span> 
       </li>
     <br>
   {% endif %} 
