@@ -12,15 +12,4 @@ theme: minima
 plugins:
   - jekyll-feed
 
-defaults:
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values: 
-      layouts: post
-      author: "Joel Martelleur"
-  
-  - scope:
-      path: "assets/img"
-    values:
-      image: "true" 
+ 
