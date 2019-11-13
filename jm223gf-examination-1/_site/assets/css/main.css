@@ -20,17 +20,19 @@ nav a { text-decoration: none; padding: 3px; display: block; margin-top: 10px; }
 
 nav a:link, nav a:visited { background-color: #000000; color: #ff0000; }
 
-nav a:hover, nav a:active { background-color: #3e3973; color: #ff0000; }
+nav a:hover, nav a:active { background-color: #b5ffb5; color: #ff0000; }
 
 main { background: #000000; color: #0000ff; border: 3px solid #0000ff; }
 
 main #main_wrapper { padding: 10px; }
 
+main #main_wrapper2 { padding: 10px; list-style: none; }
+
 main a { text-decoration: none; color: #ff0000; }
 
 main a:link, main a:visited { background-color: #000000; color: #ff0000; }
 
-main a:hover, main a:active { background-color: #3e3973; color: #ff0000; }
+main a:hover, main a:active { background-color: #b5ffb5; color: #ff0000; }
 
 footer { background: #000000; color: #0000ff; }
 
@@ -42,6 +44,6 @@ footer a { text-decoration: none; color: #00ff00; }
 
 footer a:link, footer a:visited { background-color: #000000; color: #ff0000; }
 
-footer a:hover, footer a:active { background-color: #3e3973; color: #ff0000; }
+footer a:hover, footer a:active { background-color: #b5ffb5; color: #ff0000; }
 
 /*# sourceMappingURL=main.css.map */
