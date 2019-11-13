@@ -6,6 +6,10 @@ main {
   border: 3px solid $bodyColor3;
   #main_wrapper {
     padding:10px;
+  } 
+  #main_wrapper2 {
+    padding:10px;
+    list-style: none;
   }
   a {
     text-decoration:none;
