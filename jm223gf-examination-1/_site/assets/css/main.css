@@ -1,3 +1,43 @@
-body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { background: #000000; color: #00bbff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+header { background: #000000; color: #ff0800; }
+
+header a { text-decoration: none; color: #15ff00; }
+
+header a:link, header a:visited { background-color: #000000; color: #15ff00; }
+
+header a:hover, header a:active { background-color: #3e3973; color: #15ff00; }
+
+nav { background: #000000; color: #ff0800; margin: 0; padding: 0; }
+
+nav ul { list-style: none; margin: 0; padding: 0; display: block; }
+
+nav ul li { display: inline-block; margin-bottom: 15px; margin-left: 15px; }
+
+nav a { text-decoration: none; padding: 3px; display: block; margin-top: 10px; }
+
+nav a:link, nav a:visited { background-color: #000000; color: #ff0800; }
+
+nav a:hover, nav a:active { background-color: #3e3973; color: #ff0800; }
+
+main { background: #000000; color: #00bbff; }
+
+main a { text-decoration: none; color: #ff0800; }
+
+main a:link, main a:visited { background-color: #000000; color: #ff0800; }
+
+main a:hover, main a:active { background-color: #3e3973; color: #ff0800; }
+
+footer { background: #000000; color: #00bbff; }
+
+footer ul { list-style: none; margin: 0; padding: 0; display: block; }
+
+footer ul li { display: inline-block; margin-bottom: 15px; margin-left: 15px; }
+
+footer a { text-decoration: none; color: #15ff00; }
+
+footer a:link, footer a:visited { background-color: #000000; color: #ff0800; }
+
+footer a:hover, footer a:active { background-color: #3e3973; color: #ff0800; }
 
 /*# sourceMappingURL=main.css.map */
