@@ -2,19 +2,25 @@
 
 header {
   background-image: url(../pics/base1.jpg);
-  color: $bodyColor;
+  color: $bodyColor5;
   height: 168px;
+  h1 {
+    margin-top: 5px;
+    padding: 0;
+    color: $bodyColor5;
+  }
   a {
     text-decoration:none;
-    color: $bodyColor2;
-    background-color: $backgroundColor;
+    color: $bodyColor5;
+    border: 3px solid $bodyColor5;
+    box-shadow: 5px 5px 5px $backgroundColor;
   }
   a:link, a:visited { 
-    color:$bodyColor2;
+    color:$bodyColor5;
   }
   a:hover, a:active {
     background-color: $backgroundColor; 
-    color:$bodyColor3;
+    color:$bodyColor2;
   }
 }
 
