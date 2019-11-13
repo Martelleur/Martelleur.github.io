@@ -1,19 +1,20 @@
 @import "color";
 
 header {
-  background: $backgroundColor;
+  background-image: url(../pics/base1.jpg);
   color: $bodyColor;
+  height: 168px;
   a {
     text-decoration:none;
     color: $bodyColor2;
+    background-color: $backgroundColor;
   }
-  a:link, a:visited {
-    background-color: $backgroundColor; 
+  a:link, a:visited { 
     color:$bodyColor2;
   }
   a:hover, a:active {
-    background-color: $backgroundColor2; 
-    color:$bodyColor2;
+    background-color: $backgroundColor; 
+    color:$bodyColor3;
   }
 }
 
