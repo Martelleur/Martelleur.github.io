@@ -3,6 +3,10 @@
 main {
   background: $backgroundColor;
   color: $bodyColor3;
+  border: 3px solid $bodyColor3;
+  #main_wrapper {
+    padding:10px;
+  }
   a {
     text-decoration:none;
     color: $bodyColor;
