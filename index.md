@@ -1,10 +1,9 @@
 ---
 layout: home
-title: "Happy Jekylling!"
+title: "Base1"
 innerpage: "false"
 type: "false"
 ---
 
-## Welcome to Base1_blog!
-
+### Welcome to Base1_blog!
 
