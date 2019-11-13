@@ -1,30 +1,47 @@
 @import "color";
 
 footer {
-  background: $backgroundColor;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  height: 201px;
+  background-image: url(../pics/matrix2.jpg);
   color: $bodyColor3;
+  #footer_wrapper{
+    padding-top: 20px;
+  }
   ul {
+    margin-top: 20px;
+    width:100%;
     list-style:none; 
     margin:0; 
     padding:0; 
     display:block;
     li {
-      display:inline-block; 
-      margin-bottom: 
-      15px; margin-left: 
-      15px;
+      width:100%;
+      display:block;
+      margin-bottom:20px; 
     }
   }
   a {
+    text-align: center;
+    margin:0 auto;
+    padding-left: 10px;
+    display:block;
+    width:50%;
+    height: 30px;
     text-decoration:none;
     color: $bodyColor2;
+    border: 1px solid $bodyColor2;
+    background-color: $backgroundColor;
+    box-shadow: 5px 5px 5px $bodyColor2;
   }
   a:link, a:visited {
-    background-color: $backgroundColor; 
+    background-color: none; 
     color:$bodyColor;
   }
   a:hover, a:active {
-    background-color: $backgroundColor2; 
-    color:$bodyColor;
+    background-image: $backgroundColor2; 
+    color:$bodyColor2;
   }
 }
