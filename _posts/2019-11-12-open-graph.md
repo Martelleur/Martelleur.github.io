@@ -5,6 +5,7 @@ categories: jekyll
 permalink: /posts/:title
 author: Joel Martelleur
 type: "true"
+innerpage: "true"
 ---
 
 ```

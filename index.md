@@ -5,7 +5,6 @@ innerpage: "false"
 type: "false"
 ---
 
-## You're ready to go!
+## Welcome to Base1_blog!
 
-Start developing your Jekyll website.
 

@@ -11,21 +11,11 @@
     <header>
       {% include header.html %}
     </header>
-    <nav>
-      {% include nav.html %}
+    <nav>    
     </nav>
     <main>
       {% include main.html %}
-      <h4>My posts</h4>
-      {% for post in site.posts %}
-        {% if post.type == "true" %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>By: {{ post.author }}</span> 
-          </li>
-          <br>
-        {% endif %} 
-      {% endfor %}
+
     </main>
     <footer>
       {% include footer.html %}

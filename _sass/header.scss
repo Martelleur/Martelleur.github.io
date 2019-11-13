@@ -1,0 +1,19 @@
+@import "color";
+
+header {
+  background: $backgroundColor;
+  color: $bodyColor;
+  a {
+    text-decoration:none;
+    color: $bodyColor2;
+  }
+  a:link, a:visited {
+    background-color: $backgroundColor; 
+    color:$bodyColor2;
+  }
+  a:hover, a:active {
+    background-color: $backgroundColor2; 
+    color:$bodyColor2;
+  }
+}
+

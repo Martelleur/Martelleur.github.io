@@ -1,8 +1,7 @@
-<h2>Navigering</h2>
 
-{% if page.innerpage == "true" or post.type == "true" %}
+
+{% if page.innerpage == "true" %}
 <ul>
-    <p>page.innerpage == "true"</p>
     <li>
         <a href="../about_me.md">about_me</a>
     </li>
@@ -15,7 +14,6 @@
 </ul>
 {% else %}
 <ul>
-    <p>page.innerpage == "false"</p>
     <li>
         <a href="../pages/about_me.md">about_me</a>
     </li>
@@ -27,6 +25,7 @@
     </li>
 </ul>
 {% endif %}
+
 <br>
 <hr>
 <br>
