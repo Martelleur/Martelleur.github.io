@@ -22,13 +22,16 @@ nav a:link, nav a:visited { background-color: #000000; color: #ff0000; }
 
 nav a:hover, nav a:active { background-color: #000039; color: #00ff00; }
 
+@media screen and (max-width: 450px) { nav ul li { display: block; margin: 0 auto; }
+  a { text-align: center; } }
+
 main { background: #000000; color: #0000ff; border: 3px solid #0000ff; }
 
 main #main_wrapper { padding: 10px; }
 
 main #main_wrapper2 { padding: 10px; list-style: none; }
 
-main #icons { float: right; padding: 20px; }
+main #icons { float: left; padding: 20px; }
 
 main a { text-decoration: none; color: #ff0000; }
 
