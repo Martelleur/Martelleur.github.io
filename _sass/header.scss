@@ -1,0 +1,31 @@
+@import "color";
+
+header {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../pics/matrix2.jpg);
+  height: 168px;
+  h1 {
+    padding-top: 40px;
+  }
+  a {
+    text-align: center;
+    margin:0 auto;
+    padding-left: 10px;
+    display:block;
+    width:50%;
+    text-decoration:none;
+    color: $bodyColor2;
+    border: 1px solid $bodyColor2;
+    background-color: $backgroundColor;
+    box-shadow: 5px 5px 5px $bodyColor2;
+  }
+  a:link, a:visited { 
+    color:$bodyColor;
+  }
+  a:hover, a:active {
+    background-color: $backgroundColor; 
+    color:$bodyColor2;
+  }
+}
+
