@@ -20,4 +20,4 @@ _The Open Graph protocol enables any web page to become a rich object in a socia
 
 _While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions._
 
-_(https://ogp.me/)_
+_[https://ogp.me/](https://ogp.me/)_
