@@ -1,0 +1,17 @@
+I"�<h3 id="robotstxt">robots.txt</h3>
+
+<ul>
+  <li>Robot.txt används för att ge information till webbrobotar som besöker webbplatsen. Roboten letar efter filen robot.txt i rooten av webbplatsen och läser av information om den ska besöka webbplatsen eller inte. i min robot.txt har jag fölande information</li>
+</ul>
+
+<p><em>User-agent: Google</em> 
+<em>Disallow:</em>
+<em>User-agent: *</em> 
+<em>Disallow: /</em></p>
+
+<p>Denna information tolkar robotorna som att endast roboten Google är välkomen in på webbplatsen.</p>
+
+<ul>
+  <li>Läs mer om robot.txt på <a href="https://www.robotstxt.org/robotstxt.html">https://www.robotstxt.org/robotstxt.html</a></li>
+</ul>
+:ET

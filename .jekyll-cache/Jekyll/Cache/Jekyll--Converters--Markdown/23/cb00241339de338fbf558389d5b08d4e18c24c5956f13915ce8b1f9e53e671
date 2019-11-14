@@ -1,0 +1,17 @@
+I"ç<h3 id="robotstxt">robots.txt</h3>
+
+<ul>
+  <li>Robot.txt is used to provide information to web robots who visit the site. The robot looks for the robot.txt file in the root of the site and reads information about whether or not to visit the site. In my robot.txt I have the following information</li>
+</ul>
+
+<p><em>User-agent: Google</em> 
+<em>Disallow:</em>
+<em>User-agent: *</em> 
+<em>Disallow: /</em></p>
+
+<p>This information interprets the robots as only the Google robot is welcome on the site.</p>
+
+<ul>
+  <li>Read more about robot.txt at <a href="https://www.robotstxt.org/robotstxt.html">https://www.robotstxt.org/robotstxt.html</a>.</li>
+</ul>
+:ET

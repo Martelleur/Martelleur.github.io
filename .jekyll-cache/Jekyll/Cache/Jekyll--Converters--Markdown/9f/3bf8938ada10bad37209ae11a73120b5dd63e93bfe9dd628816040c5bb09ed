@@ -1,0 +1,12 @@
+I"9<h3 id="precompiling-css">Precompiling css</h3>
+
+<p>Pre-compiling css can be a bit confusing at first but when you get it right it is a smooth and fast tool to work with
+when I made this site I used css <strong>Sass</strong> as pre-compiler.</p>
+
+<p>The advantages with pre-compiling css is for me that it goes faster and that the files become easier to read.
+The disadvantages are that pre-compiling can be confusing when you start using it.</p>
+
+<p><a href="https://sass-lang.com/guide">Sass Basics</a></p>
+
+<p><img src="../../assets/pics/sass.png" alt="Sass" /></p>
+:ET
