@@ -40,11 +40,11 @@ footer { padding: 0px; margin: 0px; margin-top: 20px; height: 201px; background-
 
 footer #footer_wrapper { padding-top: 20px; }
 
-footer ul { margin-top: 20px; width: 100%; list-style: none; margin: 0; padding: 0; display: block; }
+footer ul { margin-top: 20px; width: 50%; list-style: none; margin: 0 auto; padding: 0; display: block; border: 1px solid #00ff00; background-color: #000000; box-shadow: 5px 5px 5px #00ff00; }
 
-footer ul li { width: 100%; display: block; margin-bottom: 20px; }
+footer ul li { width: 100%; display: block; }
 
-footer a { text-align: center; margin: 0 auto; padding-left: 10px; display: block; width: 50%; text-decoration: none; color: #00ff00; border: 1px solid #00ff00; background-color: #000000; box-shadow: 5px 5px 5px #00ff00; }
+footer a { text-align: center; padding: 10px; display: block; width: 100%; text-decoration: none; color: #00ff00; }
 
 footer a:link, footer a:visited { background-color: none; color: #ff0000; }
 
