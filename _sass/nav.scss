@@ -34,3 +34,12 @@ nav {
     color:$bodyColor2;
   }
 }
+
+@media screen and (max-width: 450px) {
+  nav ul li {
+    display: block;
+    margin: 0 auto;  
+  } a {
+    text-align: center;
+  }
+}
