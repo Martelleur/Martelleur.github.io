@@ -4,6 +4,9 @@
     {% include head.html %}
   </head>
   <body>
+    <!--Facbookstuff-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v5.0"></script>
     <header>
       {% include header.html %}
     </header>
@@ -16,7 +19,7 @@
       {% include post_pages.html %}
 
       {% include follow.html %}
-      
+
     </main>
     <footer>
       {% include footer.html %}

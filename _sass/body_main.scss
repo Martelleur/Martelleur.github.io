@@ -9,11 +9,21 @@ main {
   } 
   #main_wrapper2 {
     padding:10px;
+    padding-right: 0px;
     list-style: none;
   }
   #icons {
     float: left;
     padding: 20px;
+    padding-left: 0px;
+    clear: both;
+  }
+  .fb-like {
+    margin: 0px;
+    padding-right: 0px;
+    padding: 20px;
+    padding-left: 0px;
+    float: left;
   }
   a {
     text-decoration:none;

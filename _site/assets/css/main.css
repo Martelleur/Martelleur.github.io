@@ -29,9 +29,11 @@ main { background: #000000; color: #0000ff; border: 3px solid #0000ff; }
 
 main #main_wrapper { padding: 10px; }
 
-main #main_wrapper2 { padding: 10px; list-style: none; }
+main #main_wrapper2 { padding: 10px; padding-right: 0px; list-style: none; }
 
-main #icons { float: left; padding: 20px; }
+main #icons { float: left; padding: 20px; padding-left: 0px; clear: both; }
+
+main .fb-like { margin: 0px; padding-right: 0px; padding: 20px; padding-left: 0px; float: left; }
 
 main a { text-decoration: none; color: #ff0000; }
 
