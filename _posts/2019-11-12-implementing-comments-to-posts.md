@@ -7,6 +7,7 @@ author: Joel Martelleur
 type: "true"
 innerpage: "true"
 date: "2019-11-13 14:12:33" 
+comments: true
 ---
 
 ### Implementing comments to posts

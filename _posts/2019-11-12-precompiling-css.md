@@ -7,6 +7,7 @@ author: Joel Martelleur
 type: "true"
 innerpage: "true"
 date: "2019-11-13 14:55:30" 
+comments: true
 ---
 
 ### Precompiling css
