@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: en-US}}">
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <!-- The Open Graph Protocol-->
@@ -8,24 +6,17 @@
     <meta property="og:type" content="blog.programing">
     <meta property="og:url" content="https://martelleur.github.io/">
     <meta property="og:image" content="https://martelleur.github.io/assets/pics/matrix1.jpg">
-    <title>{{ page.title }} - {{ site.title }}</title>
     <!-- github logo and follow @Martelleur-->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link type="text/plain" rel="author" href="http://domain/humans.txt"/>
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% if page.layout ==  "home" %}
+      <link rel = "icon" href = "../assets/pics/matrix2-Copy.ico" type = "image/x-icon">
+    {% else if page.layout == "post" %}
+      <link rel = "icon" href = "../../assets/pics/matrix2-Copy.ico" type = "image/x-icon">
+    {% else %}
+      <link rel = "icon" href = "../../assets/pics/matrix2-Copy.ico" type = "image/x-icon">
+    {% endif %}
     <!--<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">-->
     <link rel="stylesheet" href="/assets/css/main.css">
-</head>
-  <body>
-    <header>
-      {% include header.html %}
-    </header>
-    <nav>
-      {% include nav.html %}
-    </nav>
-    <main>
-      {% include main.html %}
-    </main>
-    <footer>
-      {% include footer.html %}
-    </footer>
-  </body>A
-</html>
+  </head>
