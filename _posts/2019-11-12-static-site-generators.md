@@ -9,7 +9,6 @@ innerpage: "true"
 date: "2019-11-13 12:00:00" 
 ---
 
-```
-Static site generators
 
-```
+### Static site generators
+

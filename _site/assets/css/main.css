@@ -28,13 +28,15 @@ main #main_wrapper { padding: 10px; }
 
 main #main_wrapper2 { padding: 10px; list-style: none; }
 
+main #icons { float: right; padding: 20px; }
+
 main a { text-decoration: none; color: #ff0000; }
 
 main a:link, main a:visited { background-color: #000000; color: #ff0000; }
 
 main a:hover, main a:active { background-color: #000039; color: #00ff00; }
 
-footer { padding: 0px; margin: 0px; margin-top: 20px; height: 201px; background-image: url(../pics/matrix2.jpg); color: #0000ff; }
+footer { padding: 0px; margin: 0px; margin-top: 20px; height: 201px; background-image: url(../pics/matrix2.jpg); color: #0000ff; clear: both; }
 
 footer #footer_wrapper { padding-top: 20px; }
 
@@ -42,7 +44,7 @@ footer ul { margin-top: 20px; width: 100%; list-style: none; margin: 0; padding:
 
 footer ul li { width: 100%; display: block; margin-bottom: 20px; }
 
-footer a { text-align: center; margin: 0 auto; padding-left: 10px; display: block; width: 50%; height: 30px; text-decoration: none; color: #00ff00; border: 1px solid #00ff00; background-color: #000000; box-shadow: 5px 5px 5px #00ff00; }
+footer a { text-align: center; margin: 0 auto; padding-left: 10px; display: block; width: 50%; text-decoration: none; color: #00ff00; border: 1px solid #00ff00; background-color: #000000; box-shadow: 5px 5px 5px #00ff00; }
 
 footer a:link, footer a:visited { background-color: none; color: #ff0000; }
 

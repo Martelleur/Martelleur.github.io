@@ -1,7 +1,7 @@
 
 
 {% if page.innerpage == "true" %}
-<ul>
+  <ul>
     <li>
         <a href="../about_me.md">about_me</a>
     </li>
@@ -11,18 +11,17 @@
     <li>
         <a href="../computers&stuff.md">computers&amp;stuff</a>
     </li>
-</ul>
-{% else %}
-<ul>
+  </ul>
+{% else if post.innerpage == "false" %}
+  <ul>
     <li>
-        <a href="../pages/about_me.md">about_me</a>
+        <a href="../../pages/about_me.md">about_me</a>
     </li>
     <li>
-        <a href="../pages/programing&stuff.md">programing&amp;stuff</a>
+        <a href="../../pages/programing&stuff.md">programing&amp;stuff</a>
     </li>
     <li>
-        <a href="../pages/computers&stuff.md">computers&amp;stuff</a>
+        <a href="../../pages/computers&stuff.md">computers&amp;stuff</a>
     </li>
-</ul>
-{% endif %}
-
+  </ul>
+{% endif %}  
