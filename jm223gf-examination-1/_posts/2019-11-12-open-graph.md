@@ -9,7 +9,5 @@ innerpage: "true"
 date: "2019-11-13 17:00:00" 
 ---
 
-```
-Open Graph
+### Open Graph
 
-```

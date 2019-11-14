@@ -7,9 +7,10 @@ footer {
   height: 201px;
   background-image: url(../pics/matrix2.jpg);
   color: $bodyColor3;
+  clear: both;
   #footer_wrapper{
     padding-top: 20px;
-  }
+  } 
   ul {
     margin-top: 20px;
     width:100%;
@@ -29,7 +30,6 @@ footer {
     padding-left: 10px;
     display:block;
     width:50%;
-    height: 30px;
     text-decoration:none;
     color: $bodyColor2;
     border: 1px solid $bodyColor2;

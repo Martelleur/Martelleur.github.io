@@ -9,17 +9,13 @@ innerpage: "true"
 date: "2019-11-13 14:55:30" 
 ---
 
-```
-comparing to regular CSS
+### Precompiling css
 
-```
 
-```
-In this website I'm using precompiling i css
+##### comparing to regular CSS
 
-```
 
-```
-pros and cones
+##### In this website I'm using precompiling i css
 
-```
+
+##### pros and cones
