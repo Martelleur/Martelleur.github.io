@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-15T01:31:13+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Base1</title><entry><title type="html">Open Graph</title><link href="http://localhost:4000/posts/open-graph" rel="alternate" type="text/html" title="Open Graph" /><published>2019-11-13T17:00:00+01:00</published><updated>2019-11-13T17:00:00+01:00</updated><id>http://localhost:4000/posts/open-graph</id><content type="html" xml:base="http://localhost:4000/posts/open-graph">&lt;h3 id=&quot;open-graph&quot;&gt;Open Graph&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-15T13:11:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Base1</title><entry><title type="html">Open Graph</title><link href="http://localhost:4000/posts/open-graph" rel="alternate" type="text/html" title="Open Graph" /><published>2019-11-13T17:00:00+01:00</published><updated>2019-11-13T17:00:00+01:00</updated><id>http://localhost:4000/posts/open-graph</id><content type="html" xml:base="http://localhost:4000/posts/open-graph">&lt;h3 id=&quot;open-graph&quot;&gt;Open Graph&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Information about Open Graph&lt;/li&gt;
@@ -20,11 +20,12 @@
     &lt;p&gt;The advantages with pre-compiling css is for me that it goes faster and that the files become easier to read.
 The disadvantages are that pre-compiling can be confusing when you start using it.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read more at https://sass-lang.com/guide&lt;a href=&quot;(https://sass-lang.com/guide)&quot;&gt;(https://sass-lang.com/guide)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://sass-lang.com/guide&quot;&gt;Sass Basics&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/pics/sass.png&quot; alt=&quot;Sass&quot; /&gt;&lt;/p&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Precompiling css</summary></entry><entry><title type="html">Implementing comments to posts</title><link href="http://localhost:4000/posts/implementing-comments-to-posts" rel="alternate" type="text/html" title="Implementing comments to posts" /><published>2019-11-13T14:12:33+01:00</published><updated>2019-11-13T14:12:33+01:00</updated><id>http://localhost:4000/posts/implementing-comments-to-posts</id><content type="html" xml:base="http://localhost:4000/posts/implementing-comments-to-posts">&lt;h3 id=&quot;implementing-comments-to-posts&quot;&gt;Implementing comments to posts&lt;/h3&gt;
+    &lt;p&gt;&lt;a href=&quot;https://sass-lang.com/guide&quot;&gt;&lt;img src=&quot;../../assets/pics/sass.png&quot; alt=&quot;Sass&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Precompiling css</summary></entry><entry><title type="html">Implementing comments to posts</title><link href="http://localhost:4000/posts/implementing-comments-to-posts" rel="alternate" type="text/html" title="Implementing comments to posts" /><published>2019-11-13T14:12:33+01:00</published><updated>2019-11-13T14:12:33+01:00</updated><id>http://localhost:4000/posts/implementing-comments-to-posts</id><content type="html" xml:base="http://localhost:4000/posts/implementing-comments-to-posts">&lt;h3 id=&quot;implementing-comments-to-posts&quot;&gt;Implementing comments to posts&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;

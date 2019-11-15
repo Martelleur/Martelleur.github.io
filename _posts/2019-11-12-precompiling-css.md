@@ -17,6 +17,8 @@ comments: true
 * The advantages with pre-compiling css is for me that it goes faster and that the files become easier to read.
 The disadvantages are that pre-compiling can be confusing when you start using it.
 
-[Sass Basics](https://sass-lang.com/guide)
+* Read more at https://sass-lang.com/guide[(https://sass-lang.com/guide)]((https://sass-lang.com/guide)) 
 
-![Sass](../../assets/pics/sass.png)
+  [![Sass](../../assets/pics/sass.png)](https://sass-lang.com/guide)
+
+
