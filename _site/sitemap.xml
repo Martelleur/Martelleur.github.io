@@ -11,19 +11,18 @@
    <url><loc>https://martelleur.github.io/pages/programing&amp;stuff.md/</loc></url>
    <url><loc>https://martelleur.github.io/pages/computers&amp;stuff.md/</loc></url>
 
-   <!--posts
    <url><loc>https://martelleur.github.io/posts/open-graph</loc></url>
    <url><loc>https://martelleur.github.io/posts/precompiling-css</loc></url>
    <url><loc>https://martelleur.github.io/posts/implementing-comments-to-posts</loc></url>
    <url><loc>https://martelleur.github.io/posts/robots.txt</loc></url>
    <url><loc>https://martelleur.github.io/posts/static-site-generators</loc></url>
    <url><loc>https://martelleur.github.io/post/humans.txt</loc></url>
-   -->
-   
+
+   <!--
    {% for post in site.posts %}
     {% if post.type == "true" %}
       <url><loc>{{ site.url }}{{ post.url }}</loc></url>
     {% endif %} 
    {% endfor %}
-
+   -->
 </urlset>
