@@ -16,7 +16,7 @@
    <url><loc>https://martelleur.github.io/posts/implementing-comments-to-posts</loc></url>
    <url><loc>https://martelleur.github.io/posts/robots.txt</loc></url>
    <url><loc>https://martelleur.github.io/posts/static-site-generators</loc></url>
-   <url><loc>https://martelleur.github.io/post/humans.txt</loc></url>
+   <url><loc>https://martelleur.github.io/posts/humans.txt</loc></url>
 
    <!--
    {% for post in site.posts %}
