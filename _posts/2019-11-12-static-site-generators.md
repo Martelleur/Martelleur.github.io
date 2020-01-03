@@ -13,4 +13,6 @@ comments: true
 
 ### Static site generators
 
-When I created this site I used static site generator for the first time, specifically I used __jekyll__. I am still a beginner in this field but really appreciate this as a tool for creating a static website.  
+When I created this site I used static site generator for the first time, specifically I used __jekyll__. I am still a beginner in this field but really appreciate this as a tool for creating a static website. 
+
+Static site generators are good to use if you want to quickly create a static site, ie a site that displays the same content.

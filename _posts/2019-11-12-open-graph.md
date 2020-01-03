@@ -12,12 +12,23 @@ comments: true
 
 ### Open Graph
 
-* Information about Open Graph    
+* I have used the Open Open Graph protocol on my website. With Open Graph protocol, your web page can be a nice graph object for eg posts in facebook. To make your web page a grapph object, you need to enter metadata into your code. At the very least, these four properties must be included.
 
-_Introduction_ 
+1. og:title
+2. og:type
+3. og:image
+4. og:ur
 
-_The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook._ 
+* On my page I have included the following meta tags when using Open Graph protocol
 
-_While many different technologies and schemas exist and could be combined together, there isn't a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions._
+```
+    <meta property="og:title" content="Base1">
+    <meta property="og:type" content="blog.programing">
+    <meta property="og:url" content="https://martelleur.github.io/">
+    <meta property="og:video" content="https://martelleur.github.io/assets/videos/Navras.mp4"/>
+    <meta property="og:image" content="https://martelleur.github.io/assets/pics/matrix1.jpg">
+    
+```
 
-_[https://ogp.me/](https://ogp.me/)_
+* Instructions on how to use Open Graph Protocol can be found on their website.
+[https://ogp.me/](https://ogp.me/).

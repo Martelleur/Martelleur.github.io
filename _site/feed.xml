@@ -1,16 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-29T14:07:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Base1</title><entry><title type="html">Open Graph</title><link href="http://localhost:4000/posts/open-graph" rel="alternate" type="text/html" title="Open Graph" /><published>2019-11-13T17:00:00+01:00</published><updated>2019-11-13T17:00:00+01:00</updated><id>http://localhost:4000/posts/open-graph</id><content type="html" xml:base="http://localhost:4000/posts/open-graph">&lt;h3 id=&quot;open-graph&quot;&gt;Open Graph&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-03T09:07:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Base1</title><entry><title type="html">Disqus</title><link href="http://localhost:4000/posts/disqus" rel="alternate" type="text/html" title="Disqus" /><published>2020-01-02T12:00:00+01:00</published><updated>2020-01-02T12:00:00+01:00</updated><id>http://localhost:4000/posts/disqus</id><content type="html" xml:base="http://localhost:4000/posts/disqus">&lt;h3 id=&quot;disqus&quot;&gt;Disqus&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Information about Open Graph&lt;/li&gt;
+  &lt;li&gt;I have used Disqus as a plug-in for comments on my site. I registered my site on their website &lt;a href=&quot;https://disqus.com/&quot;&gt;https://disqus.com/&lt;/a&gt; and got a complete code for comments that I could embed into my code and webpage.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Disqus</summary></entry><entry><title type="html">Open Graph</title><link href="http://localhost:4000/posts/open-graph" rel="alternate" type="text/html" title="Open Graph" /><published>2019-11-13T17:00:00+01:00</published><updated>2019-11-13T17:00:00+01:00</updated><id>http://localhost:4000/posts/open-graph</id><content type="html" xml:base="http://localhost:4000/posts/open-graph">&lt;h3 id=&quot;open-graph&quot;&gt;Open Graph&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I have used the Open Open Graph protocol on my website. With Open Graph protocol, your web page can be a nice graph object for eg posts in facebook. To make your web page a grapph object, you need to enter metadata into your code. At the very least, these four properties must be included.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;Introduction&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;og:title&lt;/li&gt;
+  &lt;li&gt;og:type&lt;/li&gt;
+  &lt;li&gt;og:image&lt;/li&gt;
+  &lt;li&gt;og:ur&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;em&gt;The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;On my page I have included the following meta tags when using Open Graph protocol&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;em&gt;While many different technologies and schemas exist and could be combined together, there isn’t a single technology which provides enough information to richly represent any web page within the social graph. The Open Graph protocol builds on these existing technologies and gives developers one thing to implement. Developer simplicity is a key goal of the Open Graph protocol which has informed many of the technical design decisions.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &amp;lt;meta property=&quot;og:title&quot; content=&quot;Base1&quot;&amp;gt;
+    &amp;lt;meta property=&quot;og:type&quot; content=&quot;blog.programing&quot;&amp;gt;
+    &amp;lt;meta property=&quot;og:url&quot; content=&quot;https://martelleur.github.io/&quot;&amp;gt;
+    &amp;lt;meta property=&quot;og:video&quot; content=&quot;https://martelleur.github.io/assets/videos/Navras.mp4&quot;/&amp;gt;
+    &amp;lt;meta property=&quot;og:image&quot; content=&quot;https://martelleur.github.io/assets/pics/matrix1.jpg&quot;&amp;gt;
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://ogp.me/&quot;&gt;https://ogp.me/&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Open Graph</summary></entry><entry><title type="html">Precompiling css</title><link href="http://localhost:4000/posts/precompiling-css" rel="alternate" type="text/html" title="Precompiling css" /><published>2019-11-13T14:55:30+01:00</published><updated>2019-11-13T14:55:30+01:00</updated><id>http://localhost:4000/posts/precompiling-css</id><content type="html" xml:base="http://localhost:4000/posts/precompiling-css">&lt;h3 id=&quot;precompiling-css&quot;&gt;Precompiling css&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Instructions on how to use Open Graph Protocol can be found on their website.
+&lt;a href=&quot;https://ogp.me/&quot;&gt;https://ogp.me/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Open Graph</summary></entry><entry><title type="html">Precompiling css</title><link href="http://localhost:4000/posts/precompiling-css" rel="alternate" type="text/html" title="Precompiling css" /><published>2019-11-13T14:55:30+01:00</published><updated>2019-11-13T14:55:30+01:00</updated><id>http://localhost:4000/posts/precompiling-css</id><content type="html" xml:base="http://localhost:4000/posts/precompiling-css">&lt;h3 id=&quot;precompiling-css&quot;&gt;Precompiling css&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -34,7 +54,7 @@ The disadvantages are that pre-compiling can be confusing when you start using i
   &lt;li&gt;
     &lt;p&gt;Want to know more about &lt;strong&gt;disqus&lt;/strong&gt; check out their website &lt;a href=&quot;https://disqus.com/&quot;&gt;https://disqus.com/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Implementing comments to posts</summary></entry><entry><title type="html">robots.txt</title><link href="http://localhost:4000/posts/robots.txt" rel="alternate" type="text/html" title="robots.txt" /><published>2019-11-13T14:00:00+01:00</published><updated>2019-11-13T14:00:00+01:00</updated><id>http://localhost:4000/posts/robots.txt</id><content type="html" xml:base="http://localhost:4000/posts/robots.txt">&lt;h3 id=&quot;robotstxt&quot;&gt;robots.txt&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Implementing comments to posts</summary></entry><entry><title type="html">robots.txt</title><link href="http://localhost:4000/posts/robot.txt" rel="alternate" type="text/html" title="robots.txt" /><published>2019-11-13T14:00:00+01:00</published><updated>2019-11-13T14:00:00+01:00</updated><id>http://localhost:4000/posts/robot.txt</id><content type="html" xml:base="http://localhost:4000/posts/robot.txt">&lt;h3 id=&quot;robotstxt&quot;&gt;robots.txt&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -45,7 +65,9 @@ The disadvantages are that pre-compiling can be confusing when you start using i
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">robots.txt</summary></entry><entry><title type="html">Static site generators</title><link href="http://localhost:4000/posts/static-site-generators" rel="alternate" type="text/html" title="Static site generators" /><published>2019-11-13T12:00:00+01:00</published><updated>2019-11-13T12:00:00+01:00</updated><id>http://localhost:4000/posts/static-site-generators</id><content type="html" xml:base="http://localhost:4000/posts/static-site-generators">&lt;h3 id=&quot;static-site-generators&quot;&gt;Static site generators&lt;/h3&gt;
 
-&lt;p&gt;When I created this site I used static site generator for the first time, specifically I used &lt;strong&gt;jekyll&lt;/strong&gt;. I am still a beginner in this field but really appreciate this as a tool for creating a static website.&lt;/p&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Static site generators</summary></entry><entry><title type="html">humans.txt</title><link href="http://localhost:4000/posts/humans.txt" rel="alternate" type="text/html" title="humans.txt" /><published>2019-11-12T22:33:12+01:00</published><updated>2019-11-12T22:33:12+01:00</updated><id>http://localhost:4000/posts/humans.txt</id><content type="html" xml:base="http://localhost:4000/posts/humans.txt">&lt;h3 id=&quot;humanstxt&quot;&gt;humans.txt&lt;/h3&gt;
+&lt;p&gt;When I created this site I used static site generator for the first time, specifically I used &lt;strong&gt;jekyll&lt;/strong&gt;. I am still a beginner in this field but really appreciate this as a tool for creating a static website.&lt;/p&gt;
+
+&lt;p&gt;Static site generators are good to use if you want to quickly create a static site, ie a site that displays the same content.&lt;/p&gt;</content><author><name>Joel Martelleur</name></author><summary type="html">Static site generators</summary></entry><entry><title type="html">humans.txt</title><link href="http://localhost:4000/posts/humans.txt" rel="alternate" type="text/html" title="humans.txt" /><published>2019-11-12T22:33:12+01:00</published><updated>2019-11-12T22:33:12+01:00</updated><id>http://localhost:4000/posts/humans.txt</id><content type="html" xml:base="http://localhost:4000/posts/humans.txt">&lt;h3 id=&quot;humanstxt&quot;&gt;humans.txt&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
