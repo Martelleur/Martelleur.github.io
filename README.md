@@ -1,3 +1,4 @@
 * Notes
 
-1. run jekyll serve to run at localhost:4000
+1. to run at localhost:4000 run command<br>
+``` $ jekyll serve ``` 

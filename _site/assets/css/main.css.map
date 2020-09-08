@@ -3,13 +3,13 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"_sass/main.scss",
-		"_sass/color.scss",
-		"_sass/body.scss",
-		"_sass/header.scss",
-		"_sass/nav.scss",
-		"_sass/body_main.scss",
-		"_sass/footer.scss"
+		"../../1dv022/jm223gf-examination-1/_sass/main.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/color.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/body.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/header.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/nav.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/body_main.scss",
+		"../../1dv022/jm223gf-examination-1/_sass/footer.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
